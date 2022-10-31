@@ -1,3 +1,8 @@
+var monthToLetter = {
+	"1": "A", "01": "A", "2": "B", "02": "B", "3": "C", "03": "C", "4": "D",
+	"04": "D", "5": "E", "05": "E", "6": "H", "06": "H", "7": "L", "07": "L",
+	"8": "M", "08": "M", "9": "P", "09": "P", "10": "R", "11": "S", "12": "T"
+}
 document.getElementsByClassName('detail-form')[0].addEventListener("submit", function (e) {
 	e.preventDefault();
 	let data = e.target;
